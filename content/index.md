@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: Welcome to Mind Haven
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+University notes: <br>
+[[COMP6080 Web Front-End Programming]]
