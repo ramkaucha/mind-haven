@@ -147,3 +147,83 @@ Other html tags (not much used)
 </video>
 ```
 
+## Image types
+
+Images are files that are used to render a collection of pixels on a screen that provide a visual
+
+Two key categories:
+**Raster Images** - display an image where every pixel has a defined colour (e.g. RGBA) and position
+when enlarged - original image is just stretched, leading to lower quality.
+- GIF, BMP, JPG, PNG
+
+**Vector Images** - store a series of geometric instructions (lines, shapes, colours) that are rendered on-the-fly by the browser. typically used for icons and animations.
+- SVG
+
+
+|                | BMP      | GIF              | JPG                    | PNG                      |
+| -------------- | -------- | ---------------- | ---------------------- | ------------------------ |
+| General format | Variable | 8 bit            | 24 bit                 | 16-24 bit                |
+| Compression    | No       | Yes, lossless    | Yes, loosy             | yes, looseless           |
+| Uses           | No       | Image animations | High resolution photos | most non-photo use cases |
+
+Base64 Encoding
+
+instead of loading an image as a resource via HTTP, can instead encode it directly into the page of API response
+
+reduces number of HTTP connections required, but does increase the overall amount of data needing in the process, and will naturally slow down the request being made that contains that information
+used for small images.
+
+### SVG
+
+scalable vector graphics
+![[Pasted image 20240829211613.png]]
+
+```html
+<! -- line -- >
+<svg viewBox="0 0 100 100" width="100" height="100">
+	<line x1="80" y1="10" x2="20" y2="70" stroke="yellow" />
+</svg>
+-- stroke for line colour
+-- stroke-width for line thickness
+-- stroke-linecap to specify whether the endpoint is round, square etc.
+
+<! -- circle -- >
+<svg viewBox="0 0 100 100" width="100" height="100">
+	<circle cx="50" cy="50" r="50"/>
+</svg>
+-- fill for filled-in colour
+-- stroke for outline colour
+-- stroke-width for line thickness
+
+<! -- ellipse -- >
+<svg viewBox="0 0 100 100" width="100" height="100">
+	<ellipse cx="50" cy="50" rx="50" ry="25" />
+</svg>
+-- fill for filled-in colour
+-- stroke for outline colour
+-- stroke-wdith for line thickness
+
+<! -- rect -- >
+<svg viewBox="0 0 100 100" width="100" height="100">
+	<rect x="0" y="0" width="50" height="50" rx="5" ry="5"/>
+</svg>
+-- fill for filled-in colour
+-- stroke for outline colour
+-- stroke-wdith for line thickness
+
+<! -- SVG path -- >
+<svg viewBox="0 0 100 100" width="100" height="100">
+	<path d="M0 0 L100 100 L0 100 Z" />
+</svg>
+-- fille for filled-in colour
+-- stroke for outline colour
+-- stroke-width for line thickness
+```
+
+[SVG path reference](https://www.w3schools.com/graphics/svg_path.asp)
+![[Pasted image 20240829212235.png]]
+
+
+![[Pasted image 20240829212312.png]]
+
+
