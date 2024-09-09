@@ -31,7 +31,7 @@ example1,
 here, the functionality of the circuit is expressed using a *simple signal assignment statement*
 in VHDL, all statements need to be terminated by a semi-colon (;)
 Note that in VHDL, the Boolean operators all have the same precedence, hence we must use parentheses to indicate the intended meaning
-```VHDL
+```vhdl
 ARCHITECTURE LogicFunc OF example1 IS
 BEGIN
 	f  <= (x1 AND x2) OR (NOT x2 AND x3);
@@ -44,7 +44,7 @@ Note that VHDL is not case sensitive
 ### Four-input example
 ![[Pasted image 20240909224041.png]]
 
-```VHDL
+```vhdl
 ENTITY example2 IS
 	PORT(x1, x2, x3, x3   : IN BIT;
 			f                : OUT BIT );
