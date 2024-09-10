@@ -246,3 +246,158 @@ most common properties:
 `font-style` - sets whether the text renders italic/oblique or normal
 `text-decoration` - adds decoratives lines on the text
 
+
+## Layouts
+
+Links:
+https://www.w3.org/TR/CSS2/ - specification
+https://caniuse.com - checks the browsers support of the css properties 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference - documentation from Mozilla corporation
+https://csstriggers.com - checks what property triggers while rendering 
+https://css-tricks.com - the portal with bunch of helpful tricks and articles
+https://www.w3schools.com/css/css_display_visibility.asp - css layouts
+
+### Box model
+Each element represented as a rectangular box for the rendering
+![[Pasted image 20240910124101.png]]
+```html
+<div class="box"><div class="content"></div></div>
+<div class="box"><div class="content"></div></div>
+```
+```css
+.box {
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	margin: 10px;
+	border: 5px solid blue;
+}
+.content {
+	height: 100%;
+	background-color: red;
+}
+```
+
+**Block elements** -  start with a new line and stretch to the full width of the container, could contain block and inline elements, some properties could be applied only to block elements (such as width, height, margin, padding...)
+
+**Inline elements**  -  have the size of the content, could contain only text and other inline elements, don't break the flow
+inline-block - creates a block element (could use all properties from the block element) which behaves in the flow as inline
+
+**Display: none** - removes the element from the blow
+
+**Visibility** - changes visibility of the element, but keeps it in the flow
+
+**Float** - removes an element from the normal flow and puts it to the left/right of the container and allows to other inline elements wrap around it
+
+**Static position** - positions an element based on the normal flow. Offset properties have no effect on it. Default value of the position property
+
+**Relative position** positioned an element based on the normal flow, offset properties will apply on it based on its default position
+
+**Absolute position** - removes an element from the normal flow, it will be positioned by the offset properties based on the closest parent
+
+**Fixed position** - removes an element from the normal flow, offset properties will apply on it based on the viewport
+
+**Overflow** - sets how an element will show its content when it overflows the edges
+
+visible -> content will be rendered outside the edges (default value)
+hidden -> hide the content outside the edges. Doesn't allow to scroll
+auto -> hide the content outside the edges, but allows scrolling to the hidden content
+scroll -> hide the content outside the edges, alwayss show scroll bars, even when content fits the element
+
+
+## Flexbox
+defines layout where children could be positioned in any direction and change their size based on the available space
+```html
+<div class="flex">
+	<div class="child"></div>
+	<div class="child"></div>
+	<div class="child"></div>
+</div>
+```
+```css
+.flex {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	height: 50px;
+	border: 5px solid blue;
+}
+.child {
+	width: 30px;
+	border: 5px solid green;
+}
+```
+![[Pasted image 20240910132231.png|200]]
+**Flex: flex-direction** - defines the direction in which flex items will be placed
+![[Pasted image 20240910133931.png]]
+**Flex: align-items** - defines how items will be positioned inside the flex element
+![[Pasted image 20240910133955.png]]
+**Flex: justify-content** - defines how space between items will be processed
+![[Pasted image 20240910134026.png]]
+
+## Mobile CSS
+
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp  - media queries
+
+One of the ways to provide good experience to mobile users is to build separate version of the website which will be optimised for mobile devices.
+Facebook does this with m.facebook.com
+
+Pros:
+-  well optimised for mobile
+-  possible to build a different UX flow for mobile and desktop
+-  Easier to debug
+Cons:
+-  Have to build 2 websites (time, make sure that changes were applied on both versions)
+-  False detections
+-  Handle SEO problem (how would the search engine know which one to pop up first in the browser)
+
+### Responsive website
+Changes how the website looks like based on the size of the screen
+
+Pros:
+-  Time
+-  always have the same functionality whatever device is used
+Cons:
+-  Extra code that is used only for one version of the website
+-  Harder to provide the best UX in all the cases
+
+### Media queries
+allows to create CSS rules which are applied to the document only when a device reaches specific criteriea
+```css
+.article {
+	padding: 5px 10px;
+}
+
+@media (min-width: 600px) {
+	.article {
+		padding: 10px 20px;
+	}
+}
+```
+
+Media types:
+```css
+// All the devices
+@media all {...}
+// Print mode
+@media print {...}
+// Screen devices
+@media screen {...}
+// Speech synthesizers
+@media all {...}
+```
+
+### Viewport
+represents the currently viewed area of the image, in CSS pixels, high resolution screens display multiple physical pixels per CSS pixels
+
+On mobile viewport not always equal to the size of the device, by default. It is wider than the screen and renders zoomed out
+
+```html
+// Size viewport size to the actual screen size of the device
+<meta name="viewport" content="width=dievice-width">
+
+// controls the zoom of the page
+<meta name="viewport" content="initial-scale=1, maximum-scale=2">
+```
+![[Pasted image 20240910140607.png]]
+
