@@ -1,3 +1,13 @@
+Computer graphics is a sub-field of computer science which studies methods for digitally synthesizing and manipulating visual content, it refers to the study of 2d and 3d computer graphics. It is responsible for displaying art and image data effectively and meaningfully to users.
+
+**Subfields of computer graphics**:
+- geometry - ways to represent and process surfaces
+- imaging  - image processing or image editing
+- animation - ways to represent and manipulate motion
+- interaction - real-time user engagement with graphical elements via input and dynamic feedback
+- rendering - algorithms to reproduce light transport
+
+[[Game engine]]
 
 [[content/Mind-Haven/uni/COMP3421/Player pawn and  transform tools in 3d|Player pawn and transform tools in 3d]] <br>
 [[Blueprints coding]]<br>
