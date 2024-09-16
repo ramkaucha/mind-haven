@@ -153,3 +153,4 @@ $f = \overline{m_2} = M_2 = \Pi(M_2) = \Pi M(2)$
 product-of-sums (POS) form - logic expression consisting of sum (OR) terms that are factors of a logical product (AND)
 If each sum term is a maxterm, then the expression is called a *canonical product-of-sums* for the given function
 
+[Example Exercises](onenote:https://unsw-my.sharepoint.com/personal/z5367751_ad_unsw_edu_au/Documents/COMP3222/New%20Section%201.one#Example%20Exercises&section-id={5513AF83-90B5-403E-82EB-AF5BE845484A}&page-id={203344A1-18C7-4D0A-AACF-28E838F51D30}&end)  ([Web view](https://unsw-my.sharepoint.com/personal/z5367751_ad_unsw_edu_au/_layouts/OneNote.aspx?id=%2Fpersonal%2Fz5367751_ad_unsw_edu_au%2FDocuments%2FCOMP3222&wd=target%28New%20Section%201.one%7C5513AF83-90B5-403E-82EB-AF5BE845484A%2FExample%20Exercises%7C203344A1-18C7-4D0A-AACF-28E838F51D30%2F%29))

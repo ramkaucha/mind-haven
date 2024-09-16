@@ -47,7 +47,7 @@ Note that VHDL is not case sensitive
 ```vhdl
 ENTITY example2 IS
 	PORT(x1, x2, x3, x3   : IN BIT;
-			f                : OUT BIT );
+			f             : OUT BIT );
 END example2;
 
 ARCHITECTURE LogicFunc OF example2 IS
