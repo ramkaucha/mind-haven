@@ -2,16 +2,16 @@
 
 ## Week 1
 
-| Task                        | Topic | Importance | Status                    |
-| --------------------------- | ----- | ---------- | ------------------------- |
-| css-generate-simple-box     | CSS   | Compulsory | <input type="checkbox" /> |
-| css-replicate-airbnb        | CSS   | Compulsary | <input type="checkbox" /> |
-| css-replicate-simple-layout | CSS   | Refining   | <input type="checkbox" /> |
-| css-image-backgrounds       | CSS   | Compulsory | <input type="checkbox" /> |
-| css-replicate-cities-layour | CSS   | Refining   | <input type="checkbox" /> |
-| html-many-tags-1            | HTML  | Extended   | <input type="checkbox" /> |
-| html-review-buckland        | HTML  | Refining   | <input type="checkbox" /> |
-| css-image-layout-complex    | CSS   | Refining   | <input type="checkbox" /> |
+| Task                        | Topic | Importance | Status                           |
+| --------------------------- | ----- | ---------- | -------------------------------- |
+| css-generate-simple-box     | CSS   | Compulsory | <input type="checkbox" checked/> |
+| css-replicate-airbnb        | CSS   | Compulsary | <input type="checkbox" checked/> |
+| css-replicate-simple-layout | CSS   | Refining   | <input type="checkbox" checked/> |
+| css-image-backgrounds       | CSS   | Compulsory | <input type="checkbox" checked/> |
+| css-replicate-cities-layour | CSS   | Refining   | <input type="checkbox" checked/> |
+| html-many-tags-1            | HTML  | Extended   | <input type="checkbox" checked/> |
+| html-review-buckland        | HTML  | Refining   | <input type="checkbox" checked/> |
+| css-image-layout-complex    | CSS   | Refining   | <input type="checkbox" checked/> |
 
 ## Week 2
 
