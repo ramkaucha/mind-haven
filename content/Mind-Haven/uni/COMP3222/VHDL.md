@@ -4,7 +4,7 @@
 CAD = Computer Aided Design
 
 HDL is similar to a computer programming language except that it is used to describe hardware instead of instructions to be executed on a processor (similar to markup languages)
-VHDL used in this course (another commonly used language is verilog)
+VHDL used in this course (another commonly used language is Verilog)
 
 ## VDHL
 very high speed integrated circuit HDL

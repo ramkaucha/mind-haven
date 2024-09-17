@@ -362,7 +362,7 @@ Cons:
 -  Harder to provide the best UX in all the cases
 
 ### Media queries
-allows to create CSS rules which are applied to the document only when a device reaches specific criteriea
+allows to create CSS rules which are applied to the document only when a device reaches specific criteria
 ```css
 .article {
 	padding: 5px 10px;
