@@ -9,7 +9,7 @@ Computer graphics is a sub-field of computer science which studies methods for d
 
 [[Game engine]]
 
-[[content/Mind-Haven/uni/COMP3421/Player pawn and  transform tools in 3d|Player pawn and transform tools in 3d]] <br>
+[[Player pawn and  transform tools in 3d|Player pawn and transform tools in 3d]] <br>
 [[Blueprints coding]]<br>
 [[Mapping controllers to move objects in 3d]]<br>
 [[Material concept]]<br>

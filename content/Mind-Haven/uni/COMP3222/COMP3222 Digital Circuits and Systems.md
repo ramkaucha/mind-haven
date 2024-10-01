@@ -6,4 +6,8 @@ Analog circuits signals may take on continuous values between maximum and minimu
 
 
 [[Introduction to logic circuits]]<br>
+[[Optimised implementation of logic functions|Optimised implementation of logic functions]]<br>
+[[Flip-flops, Registers, Counters|Flip-flops, Registers, Counters]]
+
+
 [[VHDL]]
