@@ -1,3 +1,4 @@
+
 # Summary:
 Logic design is concerned with finding the cheapest implementation of combinational (combinatorial) logic functions
 - circuit costs = sum of the number of gates and the total number of gate inputs
