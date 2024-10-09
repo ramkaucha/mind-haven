@@ -162,3 +162,8 @@ Only assign a constant, e.g. '0'/1, to the FF output within the reset/set condit
 ## Timing analysis of a 4-bit counter
 
 ==Q: When is it best to (de)assert Enable?==
+
+
+## Clock skew
+Clock skew is the spread in time (relative delay) in clock edges arriving at the various synchronous components of a digital circuits
+caused by wire delays (typically)

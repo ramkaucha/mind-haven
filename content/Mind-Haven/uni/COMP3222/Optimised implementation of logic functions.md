@@ -95,4 +95,4 @@ Allows us to transform AND-OR networks into NAND-only OR NOR-only equivalent net
 ![[Pasted image 20241001224554.png]]
 
 ## Analysing multilevel NOR/NAND-only circuits
-![[Pasted image 20241001224624.png]]
+![[Pasted image 20241009161359.png]]
