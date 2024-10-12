@@ -229,8 +229,272 @@ end Behavior;
 ```
 ![[Pasted image 20241009223702.png]]
 
-**note: slide 29**
+### Hierarchical code for 4-to-16 binary decoder
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
 
+entity dec4to16 is
+	port ( w : in std_logic_vecotr(3 downto 0);
+			En : in std_logic;
+			y : out std_logic_vector(0 to 15));
+end dec4to16;
 
+architecture Structure of dec4to16 is
+	component dec2to4
+		port ( w : in std_logic_vector(1 downto 0);
+				En : in std_logic;
+				y : out std_logic_vector(0 to 3));
+	end component;
+	signal m : std_logic_vector(0 to 3);
+begin
+	g1 : for i in 0 to 3 generate
+		Dec_right: dec2to4 port map ( w(1 downto 0), m(i), y(4 * i to 4 * i + 3));
+		g2: if i=3 generate
+			Dec_left: dec2to4 port map (w (3 downto 0), En, m);
+		end generate;
+	end generate;
+end structure;
+```
+
+### Specification of 2-to-1 MUX using a conditional signal assignment
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity mux2to1 is
+	port (w0, w1 ,s : in std_logic;
+			f : out std_logic);
+end mux2to1;
+
+architecture Behavior of mux2to1 is
+begin
+	f <= w0 when s = '0' else w1;
+end Behavior;
+```
+
+### VHDL code for priority encoder
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity priority is
+	port (w : in std_logic_vector(3 downto 0);
+			y : out std_logic_vector(1 downto 0);
+			z : out std_logic);
+end priority;
+
+architecture Behavior of priority is
+begin
+	y <= '11' when w(3) = '1' else -- conditional signal assignments evaluate conditions in listed order
+		'10' when w(2) = '1' else
+		'01' when w(1) = '1' else -- arbitrary, unreleated conditions are possible
+		'00';
+	z <= '0' when w = "0000" else '1';
+```
+![[Pasted image 20241010205704.png]]
+
+### priority encoder specified using if-then-else
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+entity priority is
+	port (
+	w : in std_logic_vector(3 downto 0);
+	y : out std_logic_vector(1 downto 0);
+	z : out std_logic);
+end priority;
+
+architecture Behavior of priority is
+begin
+	process (w)
+	begin
+		if w(3) = '1' then
+			y <= "11";
+		elsif w(2) = '1' then
+			y <= "10";
+		elsif w(1) = '1' then
+			y <= "01";
+		else
+			y <= "00";
+		end if;
+	end process;
+	z <= '0' when w = "0000" else '1';
+end Behavior;
+```
+
+### 2-to-1 MUX specified using an if-then-else statement
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity mux2to1 is
+	port (w0, w1, s: in std_logic; 
+			f : out std_logic);
+end mux2to1;
+
+architecture Behavior of mux2to1 is
+begin
+	process(w0, w1, s) -- sensitivity list
+	begin
+		if s = '0' then
+			f <= w0;
+		else
+			f <= w1;
+		end if;
+	end process; -- the assignment to f is not commited until the current invocation of the process ends
+end Behavior;
+```
+Processes are typically used to describe complex behaviours
+processes contains sequential statements i.e. statements within the process are evaluated one after another
+	when there are consecutive assignments to the one signal, only the last assignment made is the one that is committed when the process exits
+process is triggered when a signal in its sensitivity list have change in value
+
+### Alternate code to 2-to-1 MUX
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity mux2to1 is
+	port (w0, w1, s : in std_logic;
+			f : out std_logic);
+end mux2to1;
+
+architecture Behavior of mux2to1 is
+begin
+	process (w0, w1, s)
+	begin
+		f <= w0;
+		if s = '1' then -- works because of sequentual evaluation
+			f <= w1;
+		end if;
+	end process;
+end Behavior;
+```
+
+### One-bit equality comparator
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity compare1 is
+	port (A, B : in std_logic;
+			AeqB : out std_logic);
+end compare1;
+
+architecture Behavior of compare1 is
+begin
+	process(A, B)
+	begin
+		AeqB <= '0';
+		if A = B then
+			AeqB <= '1';
+		end if;
+	end process;
+end Behavior;
+```
+
+### 2-to-4 binary decoder (CASE)
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity dec2to4 is
+	port (w : in std_logic_vector(1 downto 0);
+			En : in std_logic;
+			y : out std_logic_vector(3 downto 0));
+end dec2to4;
+
+architecture Behavior of dec2to4 is
+begin
+	process (w, En)
+	begin
+		if En = '1' then
+			case w is
+				when "00" => y <= "1000";
+				when "01" => y <= "0100";
+				when "10" => y <= "0010";
+				when others => y <= "0001";
+			end case;
+		else
+			y <= "0000";
+		end if;
+	end process;
+end Behavior;
+```
+
+### BCD-to-7 -seg decoder (code)
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity seg7 is
+	port (bcd : in std_logic_vector(3 downto 0);
+			leds : out std_logic_vector(1 to 7));
+end seg7;
+
+architecture Behavior of seg7 is
+begin
+	process(bcd
+	begin
+		case bcd is
+			when "0000" => leds <= "0000001";
+			when "0001" => leds <= "1001111";
+			when "0010" => leds <= "0010010";
+			when "0011" => leds <= "0000110";
+			when "0100" => leds <= "1001100";
+			when "0101" => leds <= "0100100";
+			when "0110" => leds <= "0100000";
+			when "0111" => leds <= "0001111";
+			when "1000" => leds <= "0000000";
+			when "1001" => leds <= "0001100";
+			when others => leds <= "_______";
+		end case;
+	end process;
+end Behavior;
+```
+
+## VHDL operators used in synthesis
+![[Pasted image 20241010211413.png]]
+precedence in the table to the left is from top to bottom between categories
+operators within the same category have the same precedence and are therefore evaluated from left o right
+often good to parenthesise expressions to explicitly confirm evaluation order
+note also that for good synthesis tools `s <= a + b + c + d;` results in 3 3 sequential additions, whereas `s <= (a + b) + (c + d);` performs two sub-additions in parallel and then one final addition for 2/3 the delay
+
+## Multiplexer-based logic synthesis using Shannon's expansion theorem
+Besides using simple inputs, it is possible to connect more complex circuits as inputs to a MUX, allowing *fns to be synthesised* using a combination of MUXes and other logic gates
+
+### 3-input majority fn implemented using 2-to-1 MUX
+![[Pasted image 20241010212320.png]]
+
+### Shannon's expansion theorem
+MUX implementations of logic fns require that a given fn be decomposed with respect to the variables that are used as the select inputs
+any boolean function $f(w_1,...w_n)$ can be written in the form $f(w_1,w_2,...,w_n)$  = $\overline{w_1}*f(0, w_2, ...,w_n) + w_1*f(1,w_2,...,w_n)$ (the expansion can be done w.r.t any of the n variables)
+![[Pasted image 20241010212531.png]]
+
+### Cofactors of f
+in Shannon's expansion, the term $f(0, w_2, ...,w_n)$ is called the *cofactor of f*  with respect to $\overline{w_1}$, denoted by $f_\overline{w_1}$
+similarly, the term $f(1, w_2, ...,w_n)$ is called the cofactor of f with respect to $w_1$ , written $f_{w_1}$, hence we can write $f = \overline{w_1}f_{\overline{w_1}} + w_1f_{w_1}$
+in general, if the expansion is done with respect to variable $w_i$, then $f_{w_i}$ denotes $f(w_1,...,w_{i-1}, 1, w_{i+1},...w_n)$ and $f(w_1,...,w_n)$ = $\overline{w_i}f_{\overline{w_i}} + w_if_{w_i}$, whereby the complexity of the expression may vary, depending on which variable $w_i$ is used
+
+### Complexity of cofactors
+for the function $f = \overline{w_1}w_3 + w_2 \overline{w_3}$ , with canonical SOP form: $f = \overline{w_1w_2}w_3 + \overline{w_1}w_2w_3 + \overline{w_1}w_2w_3 + w_1w_2\overline{w_3}$, decomposition using $w_1$ gives
+$f = \overline{w_1}f_{\overline{w_1}} + w_1f_{w_1}$
+$= \overline{w_1}(\overline{w_2}w_3 + w_2w_3 + w_2 \overline{w_3}) + w_1(w_2\overline{w_3})$
+$= \overline{w_1}(w_3 + w_2) + w_1(w_2\overline{w_3})$
+using $w_2$ instead of $w_1$ produces
+$f = \overline{w_2}f_{\overline{w_2}} + w_2f_{w_2}$
+$= \overline{w_2}(\overline{w_1}w_3) + w_2(\overline{w_1} + \overline{w_3})$
+finally, using $w_3$ gives
+$f = \overline{w_3}f_{\overline{w_3}} + w_3f_{w_3}$
+$= \overline{w_3}(w_2) + w_3(\overline{w_1})$
+
+### Shannon's expansion with more than one variable
+Shannon's expansion can also be carried out with respected to more than one variable
+for example, expanding a function with respect to variables $w_1$ and $w_2$ gives
+![[Pasted image 20241010213526.png]]
+which is in a form that can be implemented with to 4-to-1 MUX using $w_1$ and $w_2$ as the select inputs
+**When an expansion is carried out with respected to all $n$ variables, a canonical SOP form results**
+	Hence, an n-variable function is implemented by an n-input LUT by programming it with the function's truth table
 
 

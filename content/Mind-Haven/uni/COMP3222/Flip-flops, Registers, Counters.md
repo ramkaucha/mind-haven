@@ -38,7 +38,7 @@ useful for storing a data bit
 ![[Pasted image 20241002102619.png]]
 
 ### Negative edge-trimmed (Master-slave)
-Latches are triggered by the level of the control signal, flip-flops are trigerred on control signal transitions
+Latches are triggered by the level of the control signal, flip-flops are triggered on control signal transitions
 ![[Pasted image 20241002102723.png]]
 
 ### Positive-edge-triggered D flip-flop
@@ -155,6 +155,29 @@ Note: For synchronous process with an asynchronous reset/set, both the CLK and t
 Only assign a constant, e.g. '0'/1, to the FF output within the reset/set condition
 
 ### D flip-flop with synchronous reset
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity flipflop is
+	port (D, Resetn, Clock : in std_logic;
+			Q : out std_logic);
+end flipflop;
+
+architecture Behavior of flipflop is
+begin
+	process
+	begin
+		wait until Clock'Event and Clock = '1';
+		if ResetN = '0' then
+			Q <= '0';
+		else
+			Q <= D;
+		end if;
+	end process;
+end Behavior;
+```
+
 
 
 
