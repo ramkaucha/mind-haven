@@ -4,6 +4,7 @@ Logic circuits perform operations on digital signals and are usually implemented
 
 Analog circuits signals may take on continuous values between maximum and minimum levels
 
+[[Exercises]]
 
 [[Introduction to logic circuits]]<br>
 [[Optimised implementation of logic functions|Optimised implementation of logic functions]]<br>
@@ -14,5 +15,10 @@ Analog circuits signals may take on continuous values between maximum and minimu
 [[Flip-flops, Registers, Counters|Flip-flops, Registers, Counters]]<br>
 
 [[Synchronous Sequential Circuits|Synchronous Sequential Circuits]]<br>
+[[Digital System Design]]
+
 
 [[VHDL]]<br>
+[[Lab 06]]
+[[Lab  07]]
+

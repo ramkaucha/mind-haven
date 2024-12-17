@@ -49,8 +49,8 @@ Don't care values offer additional opportunities for simplification (can be assi
 
 ### Practical Reality: Factoring for multilevel implementation
 ![[Pasted image 20241001222932.png]]
-Electrical properties limit the number of inputs a logic gate can have before performance is comprimised
-Similarly, manufacturing constraints may impose an upper limit on the number of inputs to a logic resouirce
+Electrical properties limit the number of inputs a logic gate can have before performance is compromised
+Similarly, manufacturing constraints may impose an upper limit on the number of inputs to a logic resource
 	factoring a circuit or function allows a function to be implemented from a simpler sub-functions
 	In the above derivation, 4-in AND and OR gates are needed to implement f naively, but suppose the implementation technology we use is restricted to 2-input gates?
 	Then a multilevel (more than two levels of gates) function/circuit implementation with **slower signal propagation** can be used
