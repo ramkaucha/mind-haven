@@ -1,3 +1,11 @@
+---
+title: Creating Plugin
+tags:
+  - moodle-academy
+  - tutorial
+cssclasses: []
+---
+
 Make sure to have Moodle plugin skeleton generator installed.
 
 Site Administration > Notification -- trigger plugin installation

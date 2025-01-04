@@ -6,7 +6,7 @@ AIM:
 [x] how moodle handles localisation
 
 Standard plugins occupy almost half of the Moodle installation on the file system. Other half consists of *core subsystems*, these subsystems provide the [core api](https://moodledev.io/docs/5.0/apis) that the plugins use.
-![[Pasted image 20241210185109.png]]
+![[Pasted image 20241210185109 1.png]]
 
 ## Types of plugins
 
@@ -99,7 +99,7 @@ filter - should text filters be applied ? note that filtering is needed to suppo
 user data - does the text contain data submitted by a user?
 javaScript - should inline javaScript be trusted and kept in the text
 
-![[Pasted image 20241210194253.png]]
+![[Pasted image 20241210194253 1.png]]
 
 ### HTML tags
 moodle comes with an advanced output rendering engine that encourages developers to separate logic processing in PHP scripts from generating in HTML presentations via renderers and templates.
@@ -159,3 +159,16 @@ echo userdate($date->getTimestamp(), get_string('strftimedatefullshort', 'core_l
 $grade = 20.00 / 3;
 echo format_float($grade, 2);
 ```
+
+### Logos/Images
+the directory for the icons used in a plugin is `plugintype/pluginname/pix/`
+if there is a filed named `monologo.svg` or `monologo.png`, then moodle uses that as the plugin logo
+before 4.0+, the plugin icons were named `icon.svg` or `icon.svg`
+
+**Rendering icons in php**
+using `pix_icon()`
+```php
+$chaptericon = $OUPUT->pix_icon('nav_text', get_string('navtext', 'mod_book'), 'mod_book');
+```
+Rendering icons in mustache templates
+`{{#pix}} nav_text, mod_book, Next {{/pix}}`

@@ -1,12 +1,15 @@
-Aim
-[] commonly used moodle apis
-[] how to add a link to moodle's navigation system
-[] handle http requests, including reading user submitting data
-[] create custom database tables and record user submitted data
-
+---
+title: Moodle Academy
+tags:
+  - moodle-academy
+  - architecture
+  - API
+cssclasses: 
+author: Ram
+---
 ## Authentication
 these plugins use hooks to enhance or replace parts of the user authentication flow
-standard authentication method including authenticating against internally stored password, LDAP Or OAuth2 providers such as goodle/facebook
+standard authentication method including authenticating against internally stored password, LDAP Or OAuth2 providers such as google/Facebook
 installed in the `/auth/` directory
 
 ## Enrollment
@@ -251,7 +254,7 @@ two main kinds of PHP scripts:
 example - the script `/course/view.php` is accessed to display the course main page and also to handle some of the course-related actions such as moving sections
 **libraries** - scripts are not supposed to be accessed directly via HTTP requests, they are loaded by other scripts and they provide library functions and class definition that implement all the logic
 e.g. the course view script loads another library script `/lib/completionlib.php` which provides activity completed API-related functions
-![[Pasted image 20241210222709.png]]
+![[Pasted image 20241210222709 1.png]]
 
 ### User input
 request handlers are responsible for reading and processing HTTP parameters,.
@@ -279,4 +282,142 @@ e.g. displaying a link to a given course:
 $courseid = required_param('courseid', PARAM_INT);
 $courseviewurl = new moodle_url('/course/view.php', ['id' => $courseid]);
 echo `<a href="' .$courseviewurl . '">Back to the course</a>';`
+```
+
+## Database subsystem stack
+Database schema definitions are stored in XML files that describe the database tables, columns, types, indexes and key.
+database structure stored in syntax-independent XML files is then transformed to relevant data definition language statements
+unless custom SQL, data manipulation API should be used to select insert, update, and delete records from the database tables
+if custom SQL queries are needed, they must be written extremely carefully in a way that is database neutral (queries may only use syntax shared by all supported database systems), includes things like `UNIX_TIMESTAMP()` or quotes usage
+![[Pasted image 20241211200454.png]]
+
+### XMLDB editor
+located in Site administration > development > XMLDB editor
+
+`db/install.xml` is the XML file describing the latest version of all tables that your plugin provides. Do not modify the file manually - always use the XMLDB editor to edit the content of the file, this file is used when Moodle is installing the plugin the first name
+`db/upgrade.php` - library file that controls changes to existing plugin installation, such as adding new tables, altering table's columns, adding and dropping keys
+
+
+### Database design guidelines
+all tables owned by a plugin should start with full component name of the plugin, e.g. `local_greetings, local_greetings_message`
+activity modules are the exception to above rule
+every table must have an auto-incrementing `id` field of the type `int(10)` set as its primary key, even if the table has other candidate keys
+maximum length of table names is 28 char. 
+maximum length of column names is 30 chars
+column names should be always lower-case, simple and short.
+table and column names should avoid using reserved words
+columns that act as foreign keys and contain a reference to the `id` field in another table e.g. `widget-` should be called `widgetid`
+boolean fields should be defined as integer fields `int(2)` and contain values 0 or 1 for false and true respectively 
+dates and times are to be stored as UNIX timestamp in `int(10)` fields
+
+## Database queries
+
+### DB object
+the data manipulation API is exposed via public methods of the `$DB` object
+the `$DB` global object is an instance of the `moodle_database` class
+moodle core takes care of setting up the connection to the database when the main `config.php` file is included
+the `$DB` global object and its method calls can be accessed right after the main `config.php` is included.
+to access `$DB` object in function
+```php
+<?php
+function my_function() {
+	global $DB;
+
+	$DB->insert_record('tablename', $record);
+}
+```
+
+### DB queries guidelines
+actual tables are created with name prefix defined as `$CFG->prefix` in the `config.php` file
+Do not use `AS` keyword for table aliases
+Do not use table aliases at all for `DELETE` statements
+Do use the `AS` keyword for column aliases
+
+### Database calls for manipulating data
+
+reading data from database
+`$user = $DB->get_record('user', ['id' => '1']);`
+`$DB->get_record()` used to fetch a single record from a table
+there is also `get_records()` for fetching more than one record from a table
+to execute complex queries `$DB->get_record_sql()`
+```php
+$user = $DB->get_record_sql('SELECT COUNT(*) FROM {user} WHERE deleted = 1 OR suspended = 1;');
+```
+
+**saving data to the database**
+```php
+$record = new stdClass;
+$record->message = $message;
+$record->timecreated = time();
+$record->userid = $USER->id;
+
+$DB->insert_record('local_greetings_messages', $record);
+```
+
+**updating data**
+`$DB->update_record('local_greetings_messages', $updaterecord);`
+
+**deleting data**
+`$DB->delete_record('local_greetings_messages', $record);`
+
+
+### Classes folder
+
+`classes/event` sub directory within a plugin is where plugins implement their [Event API](https://docs.moodle.org/dev/Events_API)
+
+`classes/privacy` is where plugins should implement [Privacy API](https://moodledev.io/docs/5.0/apis/subsystems/privacy)
+plugins that do not store any personal user data implement the `core_privacy/local/metadata/null_provider` interface in plugin's provider
+plugins which store data will need:
+- describe the type of data that they store;
+- provide a way to export that data
+- provide a way to delete that data
+
+
+### Third party libraries
+if a plugin includes third party libraries, then it should be declared, third party refers to any library where the latest version of the code is not maintained and hosted by the plugin developer
+- check the license to make sure library uses a `GPLv3` compatible license 
+- if a library is not compatible, it cannot be distributed together with the plugin in one zip package, and hosted in the Moodle plugin directory
+- details of third party should be declared in the `thirdpartylibs.xml` file
+- create a `readme_moodle.txt` file detailing relevant information, including - download URLs and build instruction
+- within the XML the `location` is a file, or directory, relative to your plugin's root
+e.g. of `thirdpartylibs.xml`
+```xml
+<?xml version="1.0"?>
+<libraries>
+	<library>
+		<location>javascript/html5shiv.js></location>
+		<name>Html5Shiv</name>
+		<version>3.6.2</version>
+		<license>Apache</license>
+		<licenseversion>2.0</licenseversion>
+	</library>
+	<library>
+		<location>vendor/guzzle/guzzle/</location>
+		<name>guzzle</name>
+		<version>v3.9.3</version>
+		<license>MIT</license>
+		<licenseversion></licenseversion>
+	</libray>
+</libraries>
+```
+
+### AMD Javascript module
+js in moodle is written in ESM format, and transpiled into AMD module for deployment
+[Moodle javascript guide](https://moodledev.io/docs/guides/javascript)
+the js file should be placed in `[path/to/moodle]/plugintype/pluginname/amd/src/`
+e.g. `[path/to/moodle]/plugintype/pluginname/amd/src/example.js`
+```javascript
+/**
+* Example module for the plugintype_pluginname plugin
+*
+* @module plugintype_pluginname/example
+* @copyright Year, You name <your@email.address>
+* @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+*/
+
+import { fetchThings } from './repository';
+
+export const updateThings = (thingData) => {
+	return fetchThings(thingData);
+};
 ```
