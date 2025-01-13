@@ -79,6 +79,8 @@ Independence Age: 60
 Future Expenses: $100,000 growing at 1% p.a. in real terms
 Current Savings: $150,000 invested at 6% in real terms
 
+
+
 Financial independence goal:
 Calculating the amount required at age 60 ($P_{60}$)
 To fund expenses starting at age 61* ($C_{61}$ = $100,000) growing at 1% p.a. assuming our investments achieve a real return of 6% p.a.
@@ -339,11 +341,11 @@ investment earnings subject to 15% tax rate
 allows you to draw a regular income from super savings once you have reached preservation age and permanently retired
 can still make lump-sum withdrawals
 
-60+ income received in tax-frree
+60+ income received in tax-free
 investment earnings are tax-free
 lump-sum withdrawals are usually tax-free
 
-#### Anuuaity
+#### Annuity
 Pays regular income regardless of market returns - income can be linked to inflation
 term can be fixed or lifetime
 limited or no access to lump sum withdrawals
