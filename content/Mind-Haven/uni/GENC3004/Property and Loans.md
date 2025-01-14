@@ -216,8 +216,116 @@ Allowable deductions include:
 	this is called 'real option' and is valuable
 ## Human bias and property
 
-## Before you buy
+**Human bias when buying**
+Halo effect - attractiveness of the real-estate agent makes the house more trustworthy, sequencing of properties from 'rip-off' to 'expensive' makes 'expensive' seem 'good value'
+Anchoring bias - anchored on first price and adjust too little based on new information
+Affect bias - falling in 'love' with small features makes you willing to pay a premium, visualising 'having children' or 'growing old' in the property
+Endowment effect - visiting the property in-person and touching surfaces makes you feel a sense of ownership that inflates perceived value
 
+**Human bias when selling**
+Endowment effect - you value something more highly when you own it and made worse by time and effort investment into renovations
+Egocentric bias - Think that you have 'good taste' and others share your taste
+Affect bias - Cherished memories and emotional attachment
+Disposition effect - Reluctance to sell at a loss
+
+**Human bias and auctions**
+Reciprocity effect - free coffee and ice-cream
+Perceived scarcity - opening pitch
+ Anchoring and adjustment bias - suggest a high reference price
+ Consistency effect - start from below reservation price to get people to keep bidding
+ Loss aversion - creating the feat of missing out
+
+**Winner's curse**
+Derived from 'game theory' for auctions in Economics
+The winner in a competitive auction overpays - you paid more than the maximum value attributed to the property by everyone else
+1. Be very clear about your maximum price
+2. Be willing to lose
+3. Avoid getting into a 'bidding war'
+4. Make an offer the week before the auction (with deadline)
+5. Make an offer the week after the property is 'passed in'
+6. Consider using a professional property buyer's agent
+
+**Property market inefficiency**
+There are no sophisticated 'institutional' investors
+There are some professional buyer's agents
+Most individual buyers and sellers are relatively inexperienced
+	Failure to identify valuable real options to make improvements or renovations
+	Non-financial motives
+	Poor liquidity and high transaction costs
+	Unique and non-divisible nature of individual properties
+	High costs of 'bridging finance' for people who have bough without selling
+	Urgent sales from decreased estates or insolvencies
+These market inefficiencies can provide opportunities
+	
+## Before you buy
+**Process**
+Preliminary loan and property research (3 months)
+Arrange pre-approval for a home loan (allow 1 month)
+Active property search and price negotiations (3 months +)
+Exchange of contracts (1 day)
+Settlement (6 weeks)
+Move in (1 day)
+Renovations (often several in the first year or two)
+
+**Before you look**
+Talk to your bank to determine how much they will lend
+Determine some realistic locations and dwelling type
+	Likely need to go long way SW or NW for affordability
+	Consider proximity to transport, work, family ...
+	Consider starting with a two bedroom apartment (renting out the second room)
+Research property prices
+
+### Apartment vs houses
+
+| Houses                            | Apartments                        |
+| --------------------------------- | --------------------------------- |
+| Own the land and bulding          | Own 'air' between the walls       |
+| Option to make major imrpovements | Option to make minor improvements |
+| Higher price gains over long-term | Higher rental yield (rent/price)  |
+| Higher maintenance costs          | Lower maintenance costs           |
+| No body corporate fees            | Body corporate fees               |
+| Very high starting price          | High starting price               |
+
+**Torrens v Strata Title**
+Torrens title (houses) - the purchaser owns the land and building forever
+Strata title (apartments) - multiple property owners on one piece of land with shared responsibility for common areas
+Leasehold title - government owns the land and you have a lease for X years (common in other countries)
+Community title - Property is shared and owned by many people with fees for common 'community areas'
+Retirement villages - can be strata, leasehold, community or other types, get legal advice
+
+### Consider ownership structure
+1. Individual
+2. Joint tenancy
+	Buying the property in unity with other parties (usually a spouse)
+	the title automatically transfers to other owners upon your death
+	bypassing your will
+3. Tenancy in common
+	Allows different owners to have a claim over specific percentage of value
+	the title does not automatically transfer to other owners upon your death and is subject to instructions in your will
+4. Trust or company
+	A sophisticate strategy for 'asset protection' but may be subject to more land tax
+
+**Getting the finances ready**
+Banks are often willing to lend up to 95% of the property value
+this is a **BAD** idea - lenders mortgage insurance is murder (more than 4%)
+best to only borrow 80% of the property value if possible - I acknowledging that this can be tough for first-home buyers
+Go super-lean and work to save a deposit of 20%
+
+### First home-owner assistance in NSW
+First home buyers guarantee (FHBG) - no lenders mortgage insurance (LMI) if buying a home with only 5% deposit
+Shared equity home buyer helper - first-home buying single parents, over 50s and key workers, NSW Government contributes up to 30% of equity on existing homes
+
+**Arrange pre-approval on your loan**
+Preferably do this before making any offers
+Decide on your financial institution and specific home loan product
+Make a written application involving application forms
+	apply for the maximum amount possible
+	provide information on your income, expenses, assets and liabilities 
+	provide evidence of income and regular saving
+You should obtain written 'pre-approva'
+	subject to them being satisfied with the property that you buy is adequate security for loan
+	usually given within a week of receiving paperwork 
+they rarely 'reject' a loan after written pre-approval is given
 ## Making an offer
 
 ## After you buy
