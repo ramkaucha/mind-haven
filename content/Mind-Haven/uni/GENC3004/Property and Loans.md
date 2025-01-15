@@ -322,12 +322,98 @@ Make a written application involving application forms
 	apply for the maximum amount possible
 	provide information on your income, expenses, assets and liabilities 
 	provide evidence of income and regular saving
-You should obtain written 'pre-approva'
+You should obtain written 'pre-approval'
 	subject to them being satisfied with the property that you buy is adequate security for loan
 	usually given within a week of receiving paperwork 
 they rarely 'reject' a loan after written pre-approval is given
+
+### Property searching tips
+1. Be flexible - you can probably can't afford the suburb you want
+2. use property websites (domain, realestate)
+3. Take a virtual stroll down the street - google street view
+4. Research actual sale prices - properties in the street or building using homepriceguide
+5. get to know the local agents - be courteous and professional
+6. Rent in the area before buying - inspecting properties is much easier and you get to know the area
+7. Jog in the area and get to know the streets
+8. Remember that the agent is acting for vendor (seller) - don't let them know that your heart is set on the property and will pay any price
+9. be patient, avoid emotional attachment and human bias
+
+### Traditional tips on location
+the golden rule 'location'
+1. closer to the city centre 
+2. close to transport and health services
+3. where gentrification is happening or will happen soon
+4. is aesthetically pleasing or has the potential to be so
+5. has a unique or rare positive characteristic - scarcity strengthens your negotiating position when selling 
+
+Consider both supply and demand of properties
+Supply is driven by new home construction
+Demand is driven by people wanting to live there
+slow growth in supply and strong growth demand is good - limited new land releases or new apartment construction
+strong growth in supply is often bad (independent of demand)
 ## Making an offer
 
+### Before making an offer
+**Building and pest inspection**  - an expert looks for damage, structural problems, or pest related issues. Typical cost is somewhere between $300 to $500.
+**Strata search (for apartments)** - an expert looks for problems with apartment building or management, typical cost is somewhere between $250 to $400
+You can also make a 'contingent-offer' on the results of the inspection
+
+**Conveyancer or solicitor**
+The due diligence and legal paperwork
+1. DIY - not recommended as it is specialised work
+2. Solicitor
+	More solicitor (lawyers) handle property converyancing as none of many matters
+	More expensive and may be better if an unusual situation arises 
+	Tend to pass-on much of the work to legal secretary who does not have legal qualifications
+3. Conveyancer
+	Property conveyancer do not have legal qualification but only do property conveyancing
+	Less expensive and very experienced but may miss problems in unusual cases
+	quality and capability of property conveyancer can vary significantly
+	A good starting point is [conveyancing.com.au](https://conveyancing.com.au)
+
+**Making an offer**
+There is an 'art' to negotiation
+	find out the rules (e.g. low first offer, disinterest , be professional and courteous)
+	practice your skills on some properties that you don't want ... but don't be a time waster
+	remember that the 'nice' agent is acting on behalf of the seller
+tell your bank and conveyancer that you are marking a serious offer
+	they both may ask for a copy of the contract of sale (available from the real-estate agent)
+put an offer to the agent
+	they will pass the offer on to the vendor (seller)
+	there will usually be some 'back and forth' as they ask for more, or wait for a better offer from someone else
+
+**Exchanging contacts**
+In Australia, a verbal acceptance of an offer is worthless
+	the vendor can still 'shop around' and contact other buyers asking for a higher offer
+	if another buyer offers them more ... consider yourself 'gazumped'
+1. Make sure your conveyancer or solicitor has reviewed contract of sale
+2. Arrange for 10% deposit
+3. Go to the real-estate agent immediately with signed contact of sale
+4. Exchange contracts and pay the deposit
+	0.25% of purchase price penalty if withdraw within the 5-day cooling-off period 
+	Vendor may ask for a Section 66W Certificate to waive your 5-day cooling-off period
+
+**Settlement**
+Settlement involves the final 90% payment and transfer of title
+Standard is exactly 6 weeks (42 says) after exchanging contracts
+	some vendors may accept a delayed settlement period
+Do a final inspection on the morning of settlement day
+	visit the property and make sure it hasn't been damaged by tenants (or burnt down)
+you do not attend the settlement
+	settlement is done electronically between banks and solicitors or conveyancer for each party
+	they check that paperwork, transfer of title and finances are all in order
+if successful, your solicitor or conveyancer will notify you
+	if not successful, they will notify you of the reason for failure and the new date
+
+**After settlement**
+Contact electricity, water and broadband to confirm connection
+Pick up the keys from the real-estate agent
+Move in
+notify others of change of address
+	diver's license with Roads & Maritime services
+	Australian Electoral Commission
+	Employer
+	Financial Institutions
 ## After you buy
 
 ## Property strategies
