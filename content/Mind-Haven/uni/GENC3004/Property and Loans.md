@@ -416,16 +416,441 @@ notify others of change of address
 	Financial Institutions
 ## After you buy
 
+### Ongoing ownership costs
+Council rates
+Water and sewerage service
+Maintenance costs
+Body corporate and strata management fees (apartments)
+
+### Renovating
+Most people invest too much in renovations
+If price goes up - how much is from renovations
+Avoid being the best house in the street
+Maintenance important to keep the value - pest inspection, guttering, external painting etc..
+Avoid spending more than 10% of purchase price
+Renovating is expensive and may not add as much value as you think - watch out for the renovation hype
+
+**Renovating an old two bedroom apartment**
+1. Learn to paint - use good quality paint, and special paint for bathrooms
+2. Kitchen - replace kitchen cupboard doors, taps (quality), cooktop and oven
+3. Bathroom - re-grout tiles (professional), replace mirror, cabinet doors and taps
+4. Lights - replace old light textures and but lots of modern lamps
+5. Flooring - replace carpet or polish floorboards
+6. Technology - invest in high quality wireless router and repeaters.
+
+### Renovation that may not add value
+Expensive professional landscaping
+Unusual colour schemes
+Renovations that do not have council approval 
+Pool
+
+**Selling .. and then buying another property**
+Timing of selling a property then buying another is difficult 
+Sometimes 'emotional' people buy before they sell old property - This is usually a big mistake
+Birding finance is expensive and difficult to obtain
+
+### Strategy for moving house
+1. Decide where you would like to live next
+2. Rent a home in the new location
+3. Rent out your old home then put it on the market for sale
+4. Wait until your old home is sold
+5. Search and buy your new home at leisure
+
+### Property and divorce
+Divorce can be emotionally and financially devastating - marriage and de facto relationships are normally treated the same
+The default situation is that assets are split evenly
+	this can depend on whether you signed a Binding Financial Agreement (prenup)
+	Family Court will favour the parent who is primary carer for children
+1. Make sure you have been together for 5 years before buying together
+2. Men should expect zero equity upon family break-down
+	the main residence is usually awarded to the mother
+	the father is still expected to support the children financially but now has to pay rent to live somewhere else
+
 ## Property strategies
 
+**Buy and Hold**
+Buy investment property and hold it for the very long-term (20+ years)
+Never pay tax on capital gains because you don't sell it
+Use equity from property to buy other investment properties or shares
+Gradually moves from negative to positive cash flow
+	Repayments remain roughly the same over time
+	Rent gradually increases in line with nominal average incomes (including inflation)
+
+**CGT Main Residence Exemption**
+Main residence is one of the few assets with non-assessable gains for income tax
+Make good use of it
+For couples with two properties - each individual can have different declared 'main residence'
+
+**Negative Gearing**
+1. Buy investment property
+2. Take out maximum investment loan possible as interest-only loan
+3. Make sure your investment property reduces taxable income
+	Assessable income: Rent
+	Allowable deductions: Investment loan interest, agent fees, maintenance
+	Taxable income: Assessable income less allowable deduction
+4. Offset 'loss' against salary income to reduce income tax
+5. Hold property for long-term to achieve gain in asset value
+Doing this while renting somewhere else is called 'rentvesting'
+
+**Positive Cash Flow**
+1. Build up portfolio of investment properties
+2. Focus on properties that generate good rental income - these may be lower valued properties in areas of high rental demand
+3. Make sure portfolio generates positive cash flow - cash inflow: rent, cash outflow: investment loan interest, agent fees, maintenance
+4. Stop working and enjoy 'passive income'
+
+**Lean Boomerang**
+1. Move out of home - enjoy some independence and save nothing
+2. Move back into home with parents
+3. Extreme saving (70% of income) - to save deposit on home
+
+More people are asking for help from family these days
+1. Parents giving money as a gift
+2. Parents giving money as a low interest rate loan
+3. Parents giving money for a portion of the title of the property
+
+**Investor Boomerang**
+1. Buy two bedroom apartment and live in it for 6 months
+2. Move back home with parents
+3. Rent out two bedroom apartment as investment property
+4. Keep 2 bedroom apartment as your 'main residence'
+	Use 6 year rule to maintain CGT main residence exemption
+
+**Trend-setter**
+The trendy inner-city suburbs are all completely unaffordable
+'Walk your own path' further out in NW, W, and SW Sydney
+
+**Buy new or off-the-plan**
+Not recommended
+There can be significant time delays for construction completion
+The market may have 'turned' by the time property is completed
+There have been a lot of problems with phoenix developers and poor quality construction
+There is often a 'premium' paid on new homes
+
+Buy apartments that are 20+ years old because problems have surfaced
+
+**Distressed Sales**
+Deceased estates
+Insolvencies
+People who have bough new property but cannot sell old one
+
+Offer distressed sellers a quick transaction and settlement
+These are 'vulture' acquisitions
+
+**Renovate to Hold**
+1. Buy undervalued property that needs renovation
+2. Renovate them yourself
+3. Rent out the property - some couples 'tag-team' their CGT main residence
+
+It is very easy for renovations to go over budget, you need to make renovations that will attract good tenants and not overcapitalise
+
+**Renovate to flip**
+1. Buy undervalued property that needs renovation
+2. Renovate them yourself
+3. Sell property for a profit for 'tax-free income'
+	Usually people claim CGT residence exemption so don't include gain in tax return
+	Some couples 'tag-team' their main residence so you don't have to live in construction zone
+ATO has made it clear that gain from flipping is assessable income
+Works best in a 'hot' property market - how much of the gain is from the renovation and how much from general price increase?
+Possibly an effective strategy for young tradespeople - interest on home loan and stamp duty can really cut your margins
+
+**Granny Flat**
+Buy a house with larger block of land (above $500m^2$)
+Build a small 'granny flat' on a property for under $80,000
+If it complies with the law, council approval may not be necessary
+Rent it out for more than $200+ per week
+This is a gross rental yield of $200 $\times$ 50 weeks / $80,000 = 12.5%
+
+**Dual Occupancy**
+Don't just build a granny flat - build an entire second dwelling
+Earn a second income to help pay your mortgage payments but tends to be a lower rental yield than the 'granny flat' option
+Requires council approval
+Council rates will also increase
+
+**Springboard**
+Don't buy dream-home as your first home - it will make ages to save the deposit and have a huge home loan
+1. Buy a two bedroom apartment that is at least 30 years old
+2. Rent out the second bedroom to a border
+3. Aggressively pay down the home loan and wait for price increase
+4. Buy dream-home while retaining apartment as investment property
+
+**Tag-Team**
+For stable couples who have made life-long commitments
+1. Buy property A under name of Person 1 (highest income)
+	Live in property A for a while as main residence of Person 1 (with evidence)
+2. Later buy property B under name of Person 2 (lowest income)
+	Rent out property A as investment property
+	Borrow maximum investment loan against property A
+	Person 1 claims interest as tax deduction (rent is assessable income)
+	Person 1 may even be able to continue to declare property A to be 'main residence' under the 6-year rule for CGT relief for up to 6 years
+3. Focus on paying off home loan for property B
+	property B is main residence for person B
+	interest on home loan is not tax deductible so pay it off as soon as possible
+
+**Full-House**
+If you are life-long friends with another couple with no kids
+1. Buy one small house owned by four adults
+	Purchase as 'tenants in common' with specific ownership percentages
+	Use a solicitor to draft an agreement to cover contingencies
+	Each couple has separate home loan (preferably with the same bank)
+	save on living costs shared amongst four adults
+2. Pay down home loan with four incomes for X years
+3. After X years both leave and retain as investment property
+	Both couples borrow against equity to buy their next property
+
+**Inter-state roll-up**
+1. Buy first property in Sydney - Aggressively pay down home loan and wait for increase in price
+2. Buy second property in Melbourne - Borrow using equity from first property and second property as collateral on loan
+3. Buy third property in Brisbane - Borrowing using equity from first two properties and third property as collateral
+4. Buy fourth property in Peth - Borrowing using equity from first two properties and fourth property as collateral
+5. and so on
+Buying in different states helps avoid paying land tax
+is sometimes done in 'trust' structure but this can have implications for land tax in NSW
+
+**Subdivision**
+Buy a property with large land size (above $1000 m^2$)
+wait for local council to change subdivision rules
+sub-divide property into two then
+1. sell off $500m^2$ parcel of land; OR
+2. Build a house and sell land and house
+
+**Downsizing**
+After age 65...
+1. Kicking out remaining adult kids
+2. Sell 4 bedroom family home that you have owned
+3. Buy smaller 2 - 3 bedroom
+4. Invest $300,000 each into superannuation
+
+**Commercial property**
+Shops, small offices or warehouses
+Stable tenants over may years (reduces risk)
+Higher rental yield than residential property
+Diversification away from residential property reduces some risk but what if businesses leave the area and minimum entry price can be a lot higher than residential property
 # Loans
 
 ## Financial leverage
 
+### Two types of leverage
+1. [[Financial Intelligence#Operating Leverage|Operating Leverage]] - high fixed expenses in proportion to total expenses increases risk
+2. Financial Leverage
+	High fixed interest expenses in proportion to total expenses increases profit risk (income leverage)
+	High levels of debt in proportion to total assets increases equity risk (capital leverage)
+
+**Example of leverage using property**
+Two investors would like to buy a property for $1,000:
+Ursa has $1,000 in cash and will not borrow anything (unlevered)
+Liam has $500 cash and will borrow $500 at 5% per annum (levered)
+Assume no taxes or transaction costs
+Each investor plans to buy the property then flip (sell) it in 1 year
+![[Pasted image 20250116171708.png]]
+![[Pasted image 20250116171715.png]]
+![[Pasted image 20250116171721.png]]
+
+
+|                         |         |
+| ----------------------- | ------- |
+| Buy property at t = 0   | -800000 |
+| Sell property           | +880000 |
+| Pay 4% interest on loan | -24000  |
+| Profit                  | 56000   |
+| Equity invested         | 200000  |
+| Return on equity        | +28     |
+
+
+![[Pasted image 20250116171728.png]]
+
+### Financial leverage
+Involves borrowing money money to buy an investment
+It magnifies the possible outcomes which also magnifies risk
+If the return on the asset exceeds the cost of debt then financial leverage magnifies profits (return on equity)
+If the return on asset is less than the cost of debt then financial leverage magnifies losses (return on equity)
+### Financial leverage is key to wealth creation
+The expected return on a equity property investment is expected interest rates over the long-term (20 + years)
+Financial leverage significantly magnifies the return on each dollar of your own funds investment (equity)
+Financial leverage is a key strategy for creating wealth over the long-term but it does so with a higher level of risk
+
+### Financial leverage goes wrong
+Failure to repay debt can cause bankruptcy
+	close to half of the bankruptcies involves loans less than $15k
+Declaring bankruptcy goes onto the public record and comes with professional and lifestyle restrictions
+Alternatives to bankruptcy include:
+	Informal arrangement with the lender
+	Bankruptcy Act Part IX debt agreement
+	Bankruptcy Act Part X debt agreement
+
 ## Loan mathematics
 
-## Loan features
+**Borrowing capacity example**
+$P_n = C \times [\frac{1-(1+r)^{-n}}{r}]$
+how much we borrow if we can pay $10 p.a. for 5 years at 5% p.a. ?
+$=10 \times [\frac{1-1.05^{-5}}{0.05}]$
+$= 43.29$
+
+**Loan repayment example**
+$C = P_n \div [\frac{1-(1+r)^{-n}}{r}]$
+We borrow $43.29 now. Yearly payments for 5 years at 5% p.a.
+$=43.29 \div [\frac{1-1.05^{-5}}{0.05}]$
+$=10.00$
+
+David is able to afford monthly loan repayments of $1,000 per moth, he is considering taking a home loan with a loan term of 25 years (300 months) at an interest rate of 6% per year compounded monthly (0.5% per month). The first loan repayment would be in one month. How much can he borrow
+$=1000 \times [\frac{1-(1+0.005)^{-300)}}{0.005}]$
+$=155207$
+
+Fiona would like to borrow $400,000 to buy a new home. She is considering a loan term of 30 years (360 months) at an interest rate of 6% per year compounded monthly (0.5% per month). The first loan repayment would be in 1 month. What will be her monthly loan repayments?
+$=400000 \div [\frac{1 - 1.005^{-360}}{360}]$
+$=2398$
 
 ## Interest rates
 
+**Interest rates driven by Monetary Policy**
+Reserve Bank of Australia (RBA) influences interest rates
+Monetary policy involves:
+1. Setting the 'cash rate' which directly influence all interest rates
+2. Buying and selling government bonds to influence liquidity
+The goal of this is to influence aggregate expenditure in the economy
+	higher interest rates decreases consumption and investment
+	lower interest rates can stimulate consumption and investment
+the level of aggregate expenditure influences inflation
+RBA target for inflation is between 2%-3% p.a.
+![[Pasted image 20250116191617.png]]
+
+### Interest rate components
+
+| Risk           | Risk of the borrowers falling to make replayments                                |
+| -------------- | -------------------------------------------------------------------------------- |
+| Market Power   | Power of financial institutions over borrowers and lenders (competitive rivalry) |
+| Loanable funds | Demand and supply of loanable funds                                              |
+| Real Cash Rate | Central bank normally sets nominal cash rate above expected inflation            |
+| Inflation      | Reward for lending should exceed inflation                                       |
+
+**How do banks determine fixed interest rates**
+==Fixed interest rate = average expected variable rate + liquidity premium==
+Expected variable rates are 3% in first year, 4% in 2nd year and 5% in 3rd year and 0.5% liquidity premium. What is 3 year fixed interest rate
+![[Pasted image 20250116192458.png]]
+Calculate average
+$i = \frac{i_1+i_2+i_3}{3}$
+$=\frac{3+4+5}{3} = 4$
+
+Then add liquidity premium
+$i_f = 4 + 0.5$
+$=4.5$
+
+**Term structure of interest rates and yield**
+![[Pasted image 20250116192726.png]]
+
+### Interest rate matrix
+Interest only attracts a premium over principal and interest loans
+Investment loans attract a premium over home loans
+
+|                 | Principal + interest | Interest Only |
+| --------------- | -------------------- | ------------- |
+| Hoam Loan       | 6.74%                | 7.29% + 0.55% |
+| Investment Loan | 7.34% + 0.60%        | 7.59% +0.85%  |
+
+### Comparison rates
+Interest rate = interest cost per year
+Comparison rate = interest + up-front and ongoing fees per year
+Calculated based on $150,000 loan over 25-year loan term
+
+|           | Interest Rate | Comparison Rate |
+| --------- | ------------- | --------------- |
+| Home Loan | 6.74%         | 6.84% + 0.10%   |
+
+## Loan features
+
+### 3 types of lenders
+1. Major retail banks
+	ANZ, Westpac, CBA, ...
+	Good service and good features
+	Consistent, moderate interest rates
+2. Smaller banks and lenders
+	Adelaide Bank, Bank of Queensland
+	Can offer low interest rates to make sales .. but then increase the rate once you are in
+3. Mortgage brokers and other non-bank financial inst.
+	Aussie Home Loans, Mortgage CHoice
+	Help you to find the cheapest home loan
+
+### 2 repayment options
+1. Payment consist of both physical and interest
+	Each loan payment is part principal and interest (mostly interest towards the start of the loan)
+	Loan is fully paid off at the end of the term (e.g. 25 years)
+2. Interest only payments
+	Only pay interest on principal for first X years (10 years max)
+	Reverts to principal and interest loan after X years
+	Popular with owners of investment properties who want to maximise tax deductible interest
+
+### 3 interest rate options
+1. Variable interest rates
+	Monthly repayments change as variable interest rates change
+	Expect average variable rate is less than fixed rate over long-run (liquidity premium)
+2. Fixed interest rates
+	Calculated as average of expected future variable rates plus liquidity premium
+	Maximum fixed rate period offered by banks is usually 10 years
+	Can be charged a large penalty fee if re-finance loan within fixed period
+3. Split rates
+	Part variable and part fixed ...people use them to 'hedge their bets'
+	Attractive if you want a fixed rate but also some of the flexibility of variable products (redraw) 
+
+### Repayment terms
+Period over which loan must be repaid
+Maximum is usually 30 years
+Shorter the term
+	Higher the compulsory repayments
+	The lower the total interest in the long-run
+	Less likely to be able to make voluntary extra repayments
+	Choose if you need the bank to force you to make high payments
+Longer the term
+	Lower the compulsory repayments but higher interest
+	Choose if you are a good saver and will make extra repayments
+
+### Mortgage offsets and redraw facilities
+Mortgage offset account
+	Balance of your savings account reduces principal outstanding
+	If average balance is $10,000 then bank calculates interest on loan outstanding - $10,000
+	Allows you to pay off loan faster with same repayments
+	Very good feature if it doesn't cost you a higher interest rate
+Redraw facility - Allow you to withdraw extra repayments at any time
+Normally only available with variable rate loans - some fixed interest loans offer limited redraw or offset facilities
+
+### Family security guarantee
+a family member adds their own property as security on your loan
+total assets as collateral often doubles
+Bank may be willing to lend 100% of value of the property
+No Lenders Mortgage Insurance (LMI) since LVR is under 80%
+
+Your parent's property is at risk if you default but this is unlikely if you saved 20% deposit and place the entire deposit on 'redraw' on day 1
+
+### Reverse Mortgage or Home Equity Access
+Reverse Mortgage allows aged 60+ to borrow against their home equity and make no loan repayments for the rest of their life
+When property is eventually sold (possibly upon death) bank claims the 'principal and interest' out of the proceeds of the sale
+There may be little left for children or grandchildren which may be useful if you have no children (or don't like them)
+Federal Government's Home Equity Access scheme - A more compassionate system that gives you access to equity in home on much better terms than a Reverse Mortgage from a financial situation
 ## Home loan tips
+
+Pay more than the minimum required
+	This is usually only an option if you have variable or split loan
+	Any additional payment are available in redraw and can still be accessed
+Avoid borrowing 'to capacity'
+Avoid payment Lenders Mortgage Insurance
+	Borrow less than 80% or use a family security guarantee
+Use family security guarantee if possible
+	Borrow 100% of value of property
+	Place your 20% deposit on 'redraw'
+	You still have access to these funds for emergency or to make other investments
+Increase your payment frequency to weekly
+	This will make a slight difference if you don't have a mortgage offset
+Move all your savings into redraw
+	Any savings in the redraw facility can be accessed within 24 hours
+	They effectively earn the home loan's rate of interest (tax free)
+Be careful of too much in offset account
+	Keep $100,000 in an offset account is the same as $100,000 in redraw but you will feel 'richer' every time you see your transaction balance and will end up spending a lot more
+Negotiate a good interest rate
+	Shop around, use a mortgage broker threaten to refinance with another bank
+Variable rates should be better over long-run
+	You are saving the 'liquidity premium' and have a lot more flexibility to make additional repayments and refinance the home loan (lower rates)
+Positive cash flow v negative gearing
+	Australians seem to be obsessed with paying less tax (negative gearing)
+	Negatively geared properties are usually negative cash flow although not always due to deprecation tax deductions not being a cash flow
+	Positive cash flow investments = less cash flow stress and happier life
+
+
+
