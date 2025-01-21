@@ -141,8 +141,73 @@ Australia has stopped this through 'franked dividends'
 A fully-franked dividends consists of a cash payment and also some 'franking credits' (tax credits)
 Government refunds any corporate tax paid by the company to the individual shareholder as tax rebate
 Add the total of the cash amount plus the franking credits to your assessable income
+	corporate tax rate is currently 30 % so for fully-franked dividends:
+	Assessable income = cash dividend / 0.7
+	Franking credit = assessable income - cash dividend
+Calculate income tax
+Deduct the 'franking credits' from your total tax payable
+the net result is that the government refunds any company tax that the company has paid
+for example, if your marginal tax rate if 45% then you effectively pay an extra 15% + ML on your dividends
 
+**Dividends example in Australia**
+You receive a cash dividend of $700
+Dividend notice advices 'franking credits' are $300
+You report your income as $700 + $300 = $1000
+	even though you only received $700 in cash
+calculate tax at your marginate rate (say 41.5%) = $415
+Report the 'franking credit' as a tax rebate on tax return
+you receive a tax rebate of $300
+you only pay an extra $115 in tax
+total tax received by government is $300 in corporate tax plus $115 in personal income tax = $415 = 41.5% tax
 
 # Leveraged investments
+when you borrow money to fund an investment
+Usually you borrow money from a bank in the form of an 'investment loan'
+If it is a property then the interest rate is similar to an ordinary home loan rate (but slightly higher)
+if you borrow to buy shares then it is called a 'margin loan' and the interest rates are much higher
 
+if you borrow money in the form of an investment loan to fund an investment then the interest on the investment loan is an allowable deduction
+	Interest rates are slightly higher on 'investment' compared to 'home' loans
+if it is an 'interest only' loan then fully payment is an allowance deduction
+	interest rates are slightly higher on 'interest-only' compared to 'principal and interest' loans
+if it is a 'principal and interest' loan then only the interest component is an allowable deduction
+the investment loan must be separate from a home loan used to purchase the investor's primary residence
 # Investment tax strategies
+
+## Negative gearing
+investment deductions (expenses) exceed investment assessable income
+Usually from borrowing money to invest in property or shares
+main assessable income is rental income or dividends
+main allowable deduction is the interest on the loan
+	can also claim property expenses and depreciation on fixtures
+	depreciation allowances often more generous for newly constructed homes/apartments
+if investment's assessable income < allowable deductions then it DECREASES your overall taxable income
+however
+	no point getting tax deductions on a dud investment
+	the goal is to maximise after-tax returns NOT minimise tax
+	geared investments magnify possible returns AND losses
+
+## Franking credits
+franking credits on dividends are a tax credit
+So the reduce income tax by $1 for each dollar of franking credit
+they are very valuable for legitimately reducing tax
+if you also negatively gear the share investments then you can often reduce the tax on the investment income to zero
+
+## Superannuation
+Salary sacrificing income into super is 'effectively' just like a deduction or make a personal after-tax non-concessional contribution and directly claim a deduction
+e.g. 
+salary $60,000 + 10% employer super
+$60,000 is normally assessable cinome
+if salary sacrifice another $5,000 then
+taxable income = $60,000 - 5000 = 55,000
+total contributions = 6,000 (employer) + 5,000
+
+salary sacrifice taxed at just 15% rather than 32.5% or more
+
+## Interest offset accounts
+normally any interest in your savings account is assessable income
+in a mortgage-offset account, your savings account balance is 'off-set' against your home mortgage
+any savings are used to reduce the principle of the loan (your loan amount)
+as such, you don't really earn interest (you just pay less interest)
+good way to reduce tax
+however, interest rates on offset accounts are higher than variable rates. 
