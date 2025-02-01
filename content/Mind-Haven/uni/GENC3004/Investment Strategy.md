@@ -1,10 +1,4 @@
 
-# Investment Foundations
-
-
-
-# Asset categories
-
 # Borrowing to invest
 
 ## Margin loan
