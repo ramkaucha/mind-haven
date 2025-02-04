@@ -6,8 +6,6 @@ audio signals are vectors - represented as series of numbers, we can add audio s
 elements of $R^n$ (tuples of 'n' real numbers) are vectors, $R^n$ is more abstract than polynomials.
 
 Linear algebra focuses on the similarities between these vector concepts.
-
-
 1. [[Systems of Linear Equations|Systems of Linear Equations]]
 2. [[Matrices]]
-3. 
+3. [[Solving Systems of Linear Equations]]
